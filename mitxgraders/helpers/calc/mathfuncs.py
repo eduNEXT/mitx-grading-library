@@ -227,8 +227,8 @@ def cross(a, b):
 
 # Variables available by default
 DEFAULT_VARIABLES = {
-    'i': np.complex(0, 1),
-    'j': np.complex(0, 1),
+    'i': np.complex128(0, 1),
+    'j': np.complex128(0, 1),
     'e': np.e,
     'pi': np.pi
 }
